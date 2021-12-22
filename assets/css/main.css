@@ -79,11 +79,13 @@ input, select, textarea {
 .img_box li { 
 	float: left; 
 	overflow:hidden; 
-	margin:9px; 
-	height:250px;
+	margin:11px; 
+	height:290px;
 }
 .img_box li img { 
-	height:250px; 
+	object-fit: cover;
+	height:290px; 
+	width: 140px;
 	border:1px solid #282828;
 }
 .gallery_on_gallery {
