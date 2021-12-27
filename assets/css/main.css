@@ -2157,6 +2157,73 @@ input, select, textarea {
 		font-size: 0.9em;
 	}
 
+	/* About me */
+	
+	#about {
+		padding: 10em;
+		text-align: left;
+	}
+		#about h1 {
+			margin-top: 0.35em;
+		}
+
+		#about p {
+			font-size: 1.5em;
+			line-height: 1.75em;
+		}
+
+		#about .image img {
+			border:3px solid #282828;
+		}
+
+	.biodata-repeat {
+		display: flex;
+		margin: 0 auto;
+		justify-content: space-around;
+		margin-bottom: 0.5em;
+		width: 95%;
+	}
+
+	.title-aboutme {
+		font-size: 21px;
+	}
+
+	.aboutme-left {
+		font-weight: bold;
+		text-align: left;
+		flex-grow: 1;
+		max-width: 50%;
+	}
+
+	.aboutme-right {
+		text-align: right;
+		display: block;
+		flex-grow: 1;
+		max-width: 50%;
+	}
+
+	.img-name {
+		position: relative;
+	}
+
+		.img-name img {
+			width: 100%;
+		}
+
+		.img-name p {
+			position: absolute;
+		}
+
+		.name-onimage-title {
+			bottom: -20px;
+			left: 10px;
+		}
+
+		.name-onimage-desc {
+			bottom: -50px;
+			left: 10px;
+		}
+
 /* Copyright */
 
 	#copyright {
