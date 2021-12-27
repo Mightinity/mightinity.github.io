@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+	html {
+	  transform: rotate(-90deg);
+	  transform-origin: left top;
+	  width: 100vh;
+	  overflow-x: hidden;
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	}
+  }
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
