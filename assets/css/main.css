@@ -2224,6 +2224,16 @@ input, select, textarea {
 			left: 10px;
 		}
 
+	/* Progress bar */
+
+	.title-progress {
+		font-size: 24px;
+	}
+
+	.hr.bold {
+		background-color: red;
+	}
+
 /* Copyright */
 
 	#copyright {
