@@ -295,9 +295,8 @@ input, select, textarea {
 				.container.medium {
 					width: 100%;
 				}
-
 		}
-
+		
 /* Row */
 
 	.row {
@@ -2112,6 +2111,12 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
+
+	@media screen and (max-width: 490px) {
+		#nav li {
+			font-size: 60%;
+		}
+	}
 /* Articles */
 
 	body > article {
@@ -2189,11 +2194,23 @@ input, select, textarea {
 		max-width: 50%;
 	}
 
+	@media screen and (max-width: 490px) {
+		.aboutme-left {
+			font-size: 50%;
+		}
+	}
+
 	.aboutme-right {
 		text-align: right;
 		display: block;
 		flex-grow: 1;
 		max-width: 50%;
+	}
+
+	@media screen and (max-width: 490px) {
+		.aboutme-right {
+			font-size: 50%;
+		}
 	}
 
 	.img-name {
